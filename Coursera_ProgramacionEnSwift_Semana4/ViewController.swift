@@ -104,10 +104,10 @@ class ViewController: UIViewController {
         print("")
         
         //instanciamos el objeto auto de tipo Auto
-        var auto = Auto(velocidadInicial: Velocidades.Apagado)
+        //var auto = Auto(velocidadInicial: Velocidades.Apagado)
         
         //Incluso podriamos instanciarlo llamando al inicializador por defecto
-        //var auto = Auto()
+        var auto = Auto()
         
         //Iteramos veinte veces para cambiar de velocidad
         for var i = 1; i <= 20; i++ {
