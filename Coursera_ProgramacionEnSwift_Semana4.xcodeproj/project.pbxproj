@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D931501C2ED9CC00D0BB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9314F1C2ED9CC00D0BB6F /* AppDelegate.swift */; };
+		07D931521C2ED9CC00D0BB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D931511C2ED9CC00D0BB6F /* ViewController.swift */; };
+		07D931551C2ED9CC00D0BB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D931531C2ED9CC00D0BB6F /* Main.storyboard */; };
+		07D931581C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D931561C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld */; };
+		07D9315A1C2ED9CC00D0BB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D931591C2ED9CC00D0BB6F /* Assets.xcassets */; };
+		07D9315D1C2ED9CC00D0BB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D9315B1C2ED9CC00D0BB6F /* LaunchScreen.storyboard */; };
+		07D931681C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D931671C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.swift */; };
+		07D931731C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D931721C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D931641C2ED9CC00D0BB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D931441C2ED9CC00D0BB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D9314B1C2ED9CC00D0BB6F;
+			remoteInfo = Coursera_ProgramacionEnSwift_Semana4;
+		};
+		07D9316F1C2ED9CC00D0BB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D931441C2ED9CC00D0BB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D9314B1C2ED9CC00D0BB6F;
+			remoteInfo = Coursera_ProgramacionEnSwift_Semana4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D9314C1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera_ProgramacionEnSwift_Semana4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9314F1C2ED9CC00D0BB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07D931511C2ED9CC00D0BB6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07D931541C2ED9CC00D0BB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D931571C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coursera_ProgramacionEnSwift_Semana4.xcdatamodel; sourceTree = "<group>"; };
+		07D931591C2ED9CC00D0BB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D9315C1C2ED9CC00D0BB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D9315E1C2ED9CC00D0BB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D931631C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coursera_ProgramacionEnSwift_Semana4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D931671C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_ProgramacionEnSwift_Semana4Tests.swift; sourceTree = "<group>"; };
+		07D931691C2ED9CC00D0BB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D9316E1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coursera_ProgramacionEnSwift_Semana4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D931721C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_ProgramacionEnSwift_Semana4UITests.swift; sourceTree = "<group>"; };
+		07D931741C2ED9CC00D0BB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D931491C2ED9CC00D0BB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D931601C2ED9CC00D0BB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9316B1C2ED9CC00D0BB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D931431C2ED9CC00D0BB6F = {
+			isa = PBXGroup;
+			children = (
+				07D9314E1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */,
+				07D931661C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests */,
+				07D931711C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests */,
+				07D9314D1C2ED9CC00D0BB6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D9314D1C2ED9CC00D0BB6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D9314C1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.app */,
+				07D931631C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.xctest */,
+				07D9316E1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D9314E1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */ = {
+			isa = PBXGroup;
+			children = (
+				07D9314F1C2ED9CC00D0BB6F /* AppDelegate.swift */,
+				07D931511C2ED9CC00D0BB6F /* ViewController.swift */,
+				07D931531C2ED9CC00D0BB6F /* Main.storyboard */,
+				07D931591C2ED9CC00D0BB6F /* Assets.xcassets */,
+				07D9315B1C2ED9CC00D0BB6F /* LaunchScreen.storyboard */,
+				07D9315E1C2ED9CC00D0BB6F /* Info.plist */,
+				07D931561C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld */,
+			);
+			path = Coursera_ProgramacionEnSwift_Semana4;
+			sourceTree = "<group>";
+		};
+		07D931661C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07D931671C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.swift */,
+				07D931691C2ED9CC00D0BB6F /* Info.plist */,
+			);
+			path = Coursera_ProgramacionEnSwift_Semana4Tests;
+			sourceTree = "<group>";
+		};
+		07D931711C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D931721C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.swift */,
+				07D931741C2ED9CC00D0BB6F /* Info.plist */,
+			);
+			path = Coursera_ProgramacionEnSwift_Semana4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D9314B1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D931771C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4" */;
+			buildPhases = (
+				07D931481C2ED9CC00D0BB6F /* Sources */,
+				07D931491C2ED9CC00D0BB6F /* Frameworks */,
+				07D9314A1C2ED9CC00D0BB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coursera_ProgramacionEnSwift_Semana4;
+			productName = Coursera_ProgramacionEnSwift_Semana4;
+			productReference = 07D9314C1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D931621C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D9317A1C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4Tests" */;
+			buildPhases = (
+				07D9315F1C2ED9CC00D0BB6F /* Sources */,
+				07D931601C2ED9CC00D0BB6F /* Frameworks */,
+				07D931611C2ED9CC00D0BB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D931651C2ED9CC00D0BB6F /* PBXTargetDependency */,
+			);
+			name = Coursera_ProgramacionEnSwift_Semana4Tests;
+			productName = Coursera_ProgramacionEnSwift_Semana4Tests;
+			productReference = 07D931631C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D9316D1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D9317D1C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4UITests" */;
+			buildPhases = (
+				07D9316A1C2ED9CC00D0BB6F /* Sources */,
+				07D9316B1C2ED9CC00D0BB6F /* Frameworks */,
+				07D9316C1C2ED9CC00D0BB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D931701C2ED9CC00D0BB6F /* PBXTargetDependency */,
+			);
+			name = Coursera_ProgramacionEnSwift_Semana4UITests;
+			productName = Coursera_ProgramacionEnSwift_Semana4UITests;
+			productReference = 07D9316E1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D931441C2ED9CC00D0BB6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carlos Sanchez San Segundo";
+				TargetAttributes = {
+					07D9314B1C2ED9CC00D0BB6F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A5UWCAP627;
+					};
+					07D931621C2ED9CC00D0BB6F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A5UWCAP627;
+						TestTargetID = 07D9314B1C2ED9CC00D0BB6F;
+					};
+					07D9316D1C2ED9CC00D0BB6F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A5UWCAP627;
+						TestTargetID = 07D9314B1C2ED9CC00D0BB6F;
+					};
+				};
+			};
+			buildConfigurationList = 07D931471C2ED9CC00D0BB6F /* Build configuration list for PBXProject "Coursera_ProgramacionEnSwift_Semana4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D931431C2ED9CC00D0BB6F;
+			productRefGroup = 07D9314D1C2ED9CC00D0BB6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D9314B1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */,
+				07D931621C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests */,
+				07D9316D1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D9314A1C2ED9CC00D0BB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9315D1C2ED9CC00D0BB6F /* LaunchScreen.storyboard in Resources */,
+				07D9315A1C2ED9CC00D0BB6F /* Assets.xcassets in Resources */,
+				07D931551C2ED9CC00D0BB6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D931611C2ED9CC00D0BB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9316C1C2ED9CC00D0BB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D931481C2ED9CC00D0BB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D931581C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld in Sources */,
+				07D931521C2ED9CC00D0BB6F /* ViewController.swift in Sources */,
+				07D931501C2ED9CC00D0BB6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9315F1C2ED9CC00D0BB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D931681C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9316A1C2ED9CC00D0BB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D931731C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D931651C2ED9CC00D0BB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D9314B1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */;
+			targetProxy = 07D931641C2ED9CC00D0BB6F /* PBXContainerItemProxy */;
+		};
+		07D931701C2ED9CC00D0BB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D9314B1C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4 */;
+			targetProxy = 07D9316F1C2ED9CC00D0BB6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D931531C2ED9CC00D0BB6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D931541C2ED9CC00D0BB6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D9315B1C2ED9CC00D0BB6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D9315C1C2ED9CC00D0BB6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D931751C2ED9CC00D0BB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07D931761C2ED9CC00D0BB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D931781C2ED9CC00D0BB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D931791C2ED9CC00D0BB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D9317B1C2ED9CC00D0BB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_ProgramacionEnSwift_Semana4.app/Coursera_ProgramacionEnSwift_Semana4";
+			};
+			name = Debug;
+		};
+		07D9317C1C2ED9CC00D0BB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_ProgramacionEnSwift_Semana4.app/Coursera_ProgramacionEnSwift_Semana4";
+			};
+			name = Release;
+		};
+		07D9317E1C2ED9CC00D0BB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coursera_ProgramacionEnSwift_Semana4;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07D9317F1C2ED9CC00D0BB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Coursera_ProgramacionEnSwift_Semana4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-ProgramacionEnSwift-Semana4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coursera_ProgramacionEnSwift_Semana4;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D931471C2ED9CC00D0BB6F /* Build configuration list for PBXProject "Coursera_ProgramacionEnSwift_Semana4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D931751C2ED9CC00D0BB6F /* Debug */,
+				07D931761C2ED9CC00D0BB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D931771C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D931781C2ED9CC00D0BB6F /* Debug */,
+				07D931791C2ED9CC00D0BB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D9317A1C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9317B1C2ED9CC00D0BB6F /* Debug */,
+				07D9317C1C2ED9CC00D0BB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D9317D1C2ED9CC00D0BB6F /* Build configuration list for PBXNativeTarget "Coursera_ProgramacionEnSwift_Semana4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9317E1C2ED9CC00D0BB6F /* Debug */,
+				07D9317F1C2ED9CC00D0BB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07D931561C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07D931571C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodel */,
+			);
+			currentVersion = 07D931571C2ED9CC00D0BB6F /* Coursera_ProgramacionEnSwift_Semana4.xcdatamodel */;
+			path = Coursera_ProgramacionEnSwift_Semana4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07D931441C2ED9CC00D0BB6F /* Project object */;
+}
